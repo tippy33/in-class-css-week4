@@ -1,0 +1,13 @@
+li:nth-child(odd){
+  background-color: #BEEEEF;
+}
+li:nth-child(even){
+  background-color: #376F70;
+}
+li:nth-child(10n){
+  /* padding-bottom: 50px;  padding is different from margin in that the background color is transparent */
+  margin-bottom: 50px;
+}
+li:last-child{
+  margin-bottom: inherit; /* inherit is a better choice compared to 0px because it's hardcoding it */
+}
